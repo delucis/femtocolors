@@ -1,7 +1,7 @@
 {
 	"name": "femtocolors",
 	"version": "0.1.1",
-	"description": "A tiny, zero-dependency library for styling terminal text in Node.js",
+	"description": "A tiny, zero-dependency library for styling terminal text",
 	"type": "module",
 	"exports": {
 		".": "./dist/index.js"
@@ -10,19 +10,16 @@
 		"dist"
 	],
 	"scripts": {
-		"prepublishOnly": "tsdown --dts --minify"
+		"prepublishOnly": "tsdown"
 	},
 	"keywords": [
 		"colors",
 		"terminal",
 		"cli",
 		"formatting",
-		"ansi",
 		"styleText"
 	],
-	"author": "delucis",
 	"repository": "delucis/femtocolors",
-	"homepage": "https://github.com/delucis/femtocolors",
 	"license": "MIT",
 	"engines": {
 		"node": ">=20.18.0"
@@ -30,7 +27,6 @@
 	"packageManager": "pnpm@10.18.3",
 	"devDependencies": {
 		"@changesets/changelog-github": "^0.5.1",
-		"@changesets/cli": "^2.29.7",
 		"@types/node": "^24.8.1",
 		"tsdown": "^0.15.9",
 		"typescript": "^5.9.3",
