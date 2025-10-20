@@ -30,8 +30,8 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@e0145edc7d9d8679003495b11f87bd8ef63c0cba # v1.5.3
         with:
-          version: pnpm ci-version
-          publish: pnpm ci-publish
+          version: pnpm changeset version && pnpm i --no-frozen-lockfile
+          publish: pnpm changeset publish
           commit: '[ci] release'
           title: '[ci] release'
         env:

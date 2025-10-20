@@ -11,12 +11,7 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "tsdown --dts --minify",
-		"typecheck": "tsc --noEmit src/index.ts",
-		"test": "FORCE_COLOR=1 vitest",
-		"prepublishOnly": "pnpm build",
-		"ci-version": "changeset version && pnpm i --no-frozen-lockfile",
-		"ci-publish": "changeset publish"
+		"prepublishOnly": "tsdown --dts --minify"
 	},
 	"keywords": [
 		"colors",
