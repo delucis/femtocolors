@@ -2,11 +2,12 @@
 
 A tiny, zero-dependency library for styling terminal text in Node.js.
 
-- 130 bytes, total install size 2 KB
+- 130 bytes, total install size <2 KB
 - Convenient chaining API
 - Respects `NO_COLOR`
 - Fully typed
-- Node.js >=20 only (for other runtimes, see [picocolors](https://www.npm.im/picocolors))
+- Supports [all Node.js `styleText()` styles](https://nodejs.org/api/util.html#modifiers)
+- Node.js ≥20 only (for other runtimes, see [picocolors](https://www.npm.im/picocolors))
 
 ## Usage
 
@@ -23,10 +24,6 @@ const errorStyle = fmt.red.bold;
 errorStyle('Error 1');
 errorStyle('Error 2');
 ```
-
-### Available styles
-
-All Node.js `styleText()` styles are supported. See [full list in Node.js docs](https://nodejs.org/api/util.html#modifiers).
 
 ## License
 
