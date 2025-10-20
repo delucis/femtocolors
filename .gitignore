@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# environment variable files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Build output
+dist/
