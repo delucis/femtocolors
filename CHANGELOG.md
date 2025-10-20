@@ -1,5 +1,11 @@
 # femtocolors
 
+## 0.1.2
+
+### Patch Changes
+
+- [#8](https://github.com/delucis/femtocolors/pull/8) [`5704bea`](https://github.com/delucis/femtocolors/commit/5704bea8ce12ccf0dc7ef650fc0f6a14cc598ebf) Thanks [@delucis](https://github.com/delucis)! - Optimises install size by another 15% (2.0 KB => 1.7 KB)
+
 ## 0.1.1
 
 ### Patch Changes
