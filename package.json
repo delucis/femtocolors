@@ -13,6 +13,7 @@
 	"scripts": {
 		"build": "tsdown --dts --minify",
 		"typecheck": "tsc --noEmit src/index.ts",
+		"test": "FORCE_COLOR=1 vitest",
 		"prepublishOnly": "pnpm build",
 		"ci-version": "changeset version && pnpm i --no-frozen-lockfile",
 		"ci-publish": "changeset publish"
@@ -43,6 +44,7 @@
 		"@changesets/cli": "^2.29.7",
 		"@types/node": "^24.8.1",
 		"tsdown": "^0.15.9",
-		"typescript": "^5.9.3"
+		"typescript": "^5.9.3",
+		"vitest": "^3.2.4"
 	}
 }

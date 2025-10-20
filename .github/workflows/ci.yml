@@ -8,7 +8,7 @@ on:
   pull_request:
 
 jobs:
-  typecheck:
+  ci:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,3 +22,4 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm typecheck
+      - run: pnpm t
