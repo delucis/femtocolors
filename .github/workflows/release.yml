@@ -30,8 +30,8 @@ jobs:
       - name: Create Release Pull Request
         uses: changesets/action@e0145edc7d9d8679003495b11f87bd8ef63c0cba # v1.5.3
         with:
-          version: pnpm dlx @changesets/cli version
-          publish: pnpm dlx @changesets/cli publish
+          version: pnpm dlx @changesets/cli@^2.29.7 version
+          publish: pnpm dlx @changesets/cli@^2.29.7 publish
           commit: '[ci] release'
           title: '[ci] release'
         env:
