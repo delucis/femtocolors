@@ -1,7 +1,7 @@
 {
 	"name": "femtocolors",
 	"version": "0.1.1",
-	"description": "A tiny, zero-dependency library for styling terminal text in Node.js",
+	"description": "A tiny, zero-dependency library for styling terminal text",
 	"type": "module",
 	"exports": {
 		".": "./dist/index.js"
@@ -17,7 +17,6 @@
 		"terminal",
 		"cli",
 		"formatting",
-		"ansi",
 		"styleText"
 	],
 	"repository": "delucis/femtocolors",
