@@ -1,9 +1,8 @@
 {
 	"name": "femtocolors",
 	"version": "0.1.0",
-	"description": "A microscopic, zero-dependency library for styling terminal text in Node.js",
+	"description": "A tiny, zero-dependency library for styling terminal text in Node.js",
 	"type": "module",
-	"sideEffects": false,
 	"exports": {
 		".": "./dist/index.js"
 	},
@@ -17,18 +16,13 @@
 		"colors",
 		"terminal",
 		"cli",
-		"console",
 		"formatting",
 		"ansi",
 		"styleText"
 	],
 	"author": "delucis",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/delucis/femtocolors.git"
-	},
-	"bugs": "https://github.com/delucis/femtocolors/issues",
-	"homepage": "https://github.com/delucis/femtocolors#readme",
+	"repository": "delucis/femtocolors",
+	"homepage": "https://github.com/delucis/femtocolors",
 	"license": "MIT",
 	"engines": {
 		"node": ">=20.18.0"
