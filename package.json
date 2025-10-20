@@ -10,7 +10,7 @@
 		"dist"
 	],
 	"scripts": {
-		"prepublishOnly": "tsdown --dts --minify"
+		"prepublishOnly": "tsdown"
 	},
 	"keywords": [
 		"colors",
