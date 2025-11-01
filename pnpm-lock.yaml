@@ -15,8 +15,8 @@ importers:
         specifier: ^24.9.1
         version: 24.9.1
       tsdown:
-        specifier: ^0.15.11
-        version: 0.15.11(typescript@5.9.3)
+        specifier: ^0.15.12
+        version: 0.15.12(typescript@5.9.3)(unrun@0.2.1)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -716,8 +716,8 @@ packages:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
 
-  tsdown@0.15.11:
-    resolution: {integrity: sha512-7k2OglWWt6LzvJKwEf1izbGvETvVfPYRBr9JgEYVRnz/R9LeJSp+B51FUMO46wUeEGtZ1jA3E3PtWWLlq3iygA==}
+  tsdown@0.15.12:
+    resolution: {integrity: sha512-c8VLlQm8/lFrOAg5VMVeN4NAbejZyVQkzd+ErjuaQgJFI/9MhR9ivr0H/CM7UlOF1+ELlF6YaI7sU/4itgGQ8w==}
     engines: {node: '>=20.19.0'}
     hasBin: true
     peerDependencies:
@@ -726,6 +726,7 @@ packages:
       typescript: ^5.0.0
       unplugin-lightningcss: ^0.4.0
       unplugin-unused: ^0.5.0
+      unrun: ^0.2.1
     peerDependenciesMeta:
       '@arethetypeswrong/core':
         optional: true
@@ -736,6 +737,8 @@ packages:
       unplugin-lightningcss:
         optional: true
       unplugin-unused:
+        optional: true
+      unrun:
         optional: true
 
   tslib@2.8.1:
@@ -997,11 +1000,13 @@ snapshots:
       '@tybys/wasm-util': 0.10.1
     optional: true
 
-  '@oxc-project/runtime@0.95.0': {}
+  '@oxc-project/runtime@0.95.0':
+    optional: true
 
   '@oxc-project/types@0.95.0': {}
 
-  '@pkgr/core@0.2.9': {}
+  '@pkgr/core@0.2.9':
+    optional: true
 
   '@quansync/fs@0.1.5':
     dependencies:
@@ -1373,6 +1378,7 @@ snapshots:
   synckit@0.11.11:
     dependencies:
       '@pkgr/core': 0.2.9
+    optional: true
 
   tinybench@2.9.0: {}
 
@@ -1391,7 +1397,7 @@ snapshots:
 
   tree-kill@1.2.2: {}
 
-  tsdown@0.15.11(typescript@5.9.3):
+  tsdown@0.15.12(typescript@5.9.3)(unrun@0.2.1):
     dependencies:
       ansis: 4.2.0
       cac: 6.7.14
@@ -1407,9 +1413,9 @@ snapshots:
       tinyglobby: 0.2.15
       tree-kill: 1.2.2
       unconfig: 7.3.3
-      unrun: 0.2.1
     optionalDependencies:
       typescript: 5.9.3
+      unrun: 0.2.1
     transitivePeerDependencies:
       - '@ts-macro/tsc'
       - '@typescript/native-preview'
@@ -1436,6 +1442,7 @@ snapshots:
       '@oxc-project/runtime': 0.95.0
       rolldown: 1.0.0-beta.45
       synckit: 0.11.11
+    optional: true
 
   vite@7.1.11(@types/node@24.9.1)(jiti@2.6.1):
     dependencies:
