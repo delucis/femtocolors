@@ -10,7 +10,7 @@
 		"dist"
 	],
 	"scripts": {
-		"prepublishOnly": "tsdown"
+		"prepublishOnly": "tsdown --no-fixed-extension"
 	},
 	"keywords": [
 		"colors",
