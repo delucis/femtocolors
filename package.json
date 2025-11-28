@@ -22,7 +22,7 @@
 	"repository": "delucis/femtocolors",
 	"license": "MIT",
 	"engines": {
-		"node": ">=20.18.0"
+		"node": ">=20.19.6"
 	},
 	"packageManager": "pnpm@10.23.0",
 	"devDependencies": {
