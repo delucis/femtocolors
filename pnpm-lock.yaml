@@ -15,7 +15,7 @@ importers:
         specifier: ^24.9.1
         version: 24.9.1
       tsdown:
-        specifier: ^0.17.3
+        specifier: ^0.17.4
         version: 0.17.4(synckit@0.11.11)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
@@ -690,6 +690,7 @@ packages:
   tsdown@0.17.4:
     resolution: {integrity: sha512-z+kNuv1rwM1POQIufDUVrdNc/uGy0ueRVafCyDH39IdHxin4JXgB8DNGSPoqdIpcOpqUoRbNreK8NxENFmlhKw==}
     engines: {node: '>=20.19.0'}
+    deprecated: Including an unexpected breaking change (copy behavior)
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
