@@ -15,7 +15,7 @@ importers:
         specifier: ^24.9.1
         version: 24.9.1
       tsdown:
-        specifier: ^0.18.0
+        specifier: ^0.18.1
         version: 0.18.1(synckit@0.11.11)(typescript@5.9.3)
       typescript:
         specifier: ^5.9.3
