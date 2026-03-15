@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@changesets/changelog-github':
-        specifier: ^0.5.2
-        version: 0.5.2
+        specifier: ^0.6.0
+        version: 0.6.0
       '@types/node':
         specifier: ^24.10.15
         version: 24.11.0
@@ -47,11 +47,11 @@ packages:
     resolution: {integrity: sha512-ubmJ6TShyaD69VE9DQrlXcdkvJbmwWPB8qYj0H2kaJi29O7vJT9ajSdBd2W8CG34pwL9pYA74fi7RHC1qbLoVQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
-  '@changesets/changelog-github@0.5.2':
-    resolution: {integrity: sha512-HeGeDl8HaIGj9fQHo/tv5XKQ2SNEi9+9yl1Bss1jttPqeiASRXhfi0A2wv8yFKCp07kR1gpOI5ge6+CWNm1jPw==}
+  '@changesets/changelog-github@0.6.0':
+    resolution: {integrity: sha512-wA2/y4hR/A1K411cCT75rz0d46Iezxp1WYRFoFJDIUpkQ6oDBAIUiU7BZkDCmYgz0NBl94X1lgcZO+mHoiHnFg==}
 
-  '@changesets/get-github-info@0.7.0':
-    resolution: {integrity: sha512-+i67Bmhfj9V4KfDeS1+Tz3iF32btKZB2AAx+cYMqDSRFP7r3/ZdGbjCo+c6qkyViN9ygDuBjzageuPGJtKGe5A==}
+  '@changesets/get-github-info@0.8.0':
+    resolution: {integrity: sha512-cRnC+xdF0JIik7coko3iUP9qbnfi1iJQ3sAa6dE+Tx3+ET8bjFEm63PA4WEohgjYcmsOikPHWzPsMWWiZmntOQ==}
 
   '@changesets/types@6.1.0':
     resolution: {integrity: sha512-rKQcJ+o1nKNgeoYRHKOS07tAMNd3YSN0uHaJOZYjBAgxfV7TUE7JE+z4BzZdQwb5hKaYbayKN5KrYV7ODb2rAA==}
@@ -863,15 +863,15 @@ snapshots:
       '@babel/helper-string-parser': 8.0.0-rc.1
       '@babel/helper-validator-identifier': 8.0.0-rc.1
 
-  '@changesets/changelog-github@0.5.2':
+  '@changesets/changelog-github@0.6.0':
     dependencies:
-      '@changesets/get-github-info': 0.7.0
+      '@changesets/get-github-info': 0.8.0
       '@changesets/types': 6.1.0
       dotenv: 8.6.0
     transitivePeerDependencies:
       - encoding
 
-  '@changesets/get-github-info@0.7.0':
+  '@changesets/get-github-info@0.8.0':
     dependencies:
       dataloader: 1.4.0
       node-fetch: 2.7.0
