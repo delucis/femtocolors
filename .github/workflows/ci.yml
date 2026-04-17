@@ -22,7 +22,7 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - name: Type check
-        run: pnpm tsc --noEmit src/index.ts
+        run: pnpm tsc --types node --noEmit src/index.ts
       - name: Unit tests
         run: pnpm vitest
         env:
