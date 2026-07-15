@@ -29,7 +29,7 @@
 		"@changesets/changelog-github": "^0.7.0",
 		"@types/node": "^24.13.3",
 		"tsdown": "^0.22.4",
-		"typescript": "^6.0.3",
+		"typescript": "^7.0.2",
 		"vitest": "^4.1.10"
 	}
 }
