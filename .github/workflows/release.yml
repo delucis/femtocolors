@@ -33,7 +33,10 @@ jobs:
           version: pnpm dlx @changesets/cli@^2.29.7 version
           publish: pnpm dlx @changesets/cli@^2.29.7 publish
           commit: '[ci] release'
-          title: '[ci] release'
+version-script: pnpm dlx @changesets/cli@^2.29.7 version
+publish-script: pnpm dlx @changesets/cli@^2.29.7 publish
+commit-message: '[ci] release'
+pr-title: '[ci] release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: "" # See https://github.com/changesets/changesets/issues/1152#issuecomment-3190884868
