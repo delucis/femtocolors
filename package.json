@@ -26,7 +26,7 @@
 	},
 	"packageManager": "pnpm@11.21.0",
 	"devDependencies": {
-		"@changesets/changelog-github": "^0.7.0",
+		"@changesets/changelog-github": "^1.0.0",
 		"@types/node": "^24.13.3",
 		"tsdown": "^0.22.14",
 		"typescript": "^7.0.2",
