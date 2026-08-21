@@ -28,12 +28,11 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - name: Create Release Pull Request
-        uses: changesets/action@a45c4d594aa4e2c509dc14a9f2b3b67ba3780d0d # v1.9.0
+        uses: changesets/action@198f833dd7d863100ea6e28967bc9a9fdefadb0a # v2.1.0
         with:
-          version: pnpm dlx @changesets/cli@^2.29.7 version
-          publish: pnpm dlx @changesets/cli@^2.29.7 publish
-          commit: '[ci] release'
-          title: '[ci] release'
+          version-script: pnpm dlx @changesets/cli@^2.29.7 version
+          publish-script: pnpm dlx @changesets/cli@^2.29.7 publish
+          commit-message: '[ci] release'
+          pr-title: '[ci] release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: "" # See https://github.com/changesets/changesets/issues/1152#issuecomment-3190884868
