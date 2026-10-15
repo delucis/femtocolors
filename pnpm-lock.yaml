@@ -12,7 +12,7 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       '@types/node':
-        specifier: ^24.19.1
+        specifier: ^24.19.2
         version: 24.19.2
       tsdown:
         specifier: ^0.23.1
